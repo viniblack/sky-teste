@@ -1,4 +1,4 @@
-body {
-  background-color: red ;
-  color: white;
+body, span{
+  font-family: 'Roboto', sans-serif;
+  color: #626265;
 }

@@ -2,21 +2,84 @@
 <html lang="pt-br">
 
 <head>
+  <!-- Título -->
+  <title>SKY Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>Sky</title>
+  <link rel="shortcut icon" href="src/icons/favicon.ico">
+  <!-- Bootstrap -->
+  <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-
+  <!-- JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
   </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Meu CSS -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h1>test</h1>
+  <header>
+    <nav style="background-color: #F1F2FA;" class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img style="max-width: 7rem;" src="src/logo-sky.svg" alt="">
+          <h1 class="d-none">SKY</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav me-5">
+            <li class="nav-item">
+              <button class="btn">
+                <img src="src/icons/person.png" alt="">
+              </button>
+            </li>
+            </li>
+            <li class="nav-item">
+              <button class="btn">
+                <img src="src/icons/themes.png" alt="">
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn">
+                <img src="src/icons/decrease.png" alt="">
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn">
+                <img src="src/icons/increase.png" alt="">
+              </button>
+            </li>
+          </ul>
+          <div class="me-auto ms-5 d-flex align-items-center">
+            <img style="width: 1rem;" src="src/icons/play.svg" alt="">
+            <span class="text-center mx-2 fw-bold">Play</span>
+          </div>
+          <div class="d-flex align-items-center mx-5">
+            <div class="mx-4">
+              <a class="text-decoration-none d-flex align-items-center" href="#">
+                <img style="width: 1.2rem;" src="src/icons/person.svg" alt="">
+                <span class="text-center mx-2 fw-bold">Entrar</span>
+              </a>
+            </div>
+            <button class="btn">
+              <img src="src/icons/search.svg" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
 </body>
 
 </html>
