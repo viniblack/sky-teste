@@ -23,6 +23,11 @@
 
   <!-- Meu CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.css">
 </head>
 
 <body>
@@ -80,6 +85,66 @@
       </div>
     </nav>
   </header>
+  <main style="margin-top: 5rem;">
+    <section class="movie-sections">
+      <div class="container-fluid">
+        <div class="row text-center justify-content-center">
+          <a href="#" class="col text-decoration-none fw-bold fs-4 border-4 ">
+            Filmes
+          </a>
+          <a href="#" class="col text-decoration-none fw-bold fs-4">
+            Séries
+          </a>
+          <a href="#" class="col text-decoration-none fw-bold fs-4">
+            Canais
+          </a>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid">
+        <div class="row carro my-3">
+          <div class="col">
+            <img class="movie" src="src/movie/men-in-black.jpg" alt="">
+          </div>
+          <div class="col">
+            <img class="movie" src="src/movie/spider-man.jpg" alt="">
+          </div>
+          <div class="col">
+            <img class="movie" src="src/movie/aladdin.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.js"></script>
+
+  <script>
+    $('.carro').slick({
+
+      dots: true,
+      infinite: true,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      // autoplay: true,
+      // autoplaySpeed: 2500,
+
+    });
+  </script>
 </body>
 
 </html>
+<!-- appendArrows, appendDots, 
+
+centerMode
+boleano
+falso
+Ativa a visualização centralizada com slides anteriores / posteriores parciais. Use com contagens de slidesToShow com números ímpares.
+
+
+
+-->

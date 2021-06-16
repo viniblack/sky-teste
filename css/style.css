@@ -1,4 +1,36 @@
-body, span{
+/* body {
+  background-color: red;
+} */
+
+body,
+span,
+a {
   font-family: 'Roboto', sans-serif;
   color: #626265;
+  /* background-color: red; */
+}
+
+.movie-sections a:nth-child(1) {
+  color: #F35C58;
+  border-bottom: 1px solid #F35C58;
+}
+
+.movie {
+  width: 50rem;
+  max-width: 60rem;
+  padding: 0 1rem;
+  border-radius: .5rem;
+}
+
+/* .slick-active img{
+  width: 60rem !important;
+}
+
+.slick-cloned img, .slick-current img{
+width: 50rem !important;
+} */
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: #F35C58 !important;
 }
